@@ -1,0 +1,29 @@
+:root {
+  --fundo1: #141519;
+  --fundo2: #171e28;
+  --fundo3: #1e252f;
+  --acao: #fc7613;
+  --acao2: #fc7413cb;
+  --texto1: #fafafa;
+  --texto2: #8e94a0;
+  --botao: #262f38;
+  --botaoFoco: #8e94a0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.ativo {
+  background-color: var(--acao);
+  color: var(--texto1);
+}
